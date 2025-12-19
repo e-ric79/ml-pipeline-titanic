@@ -251,30 +251,6 @@ print(f"Confidence: {probability[1]:.1%}")
 - Historical data only (1912 Titanic disaster)
 - No feature engineering applied (kept simple for demonstration)
 
-### Potential Improvements
-1. **Feature Engineering**
-   - Extract titles from names (Mr., Mrs., Master)
-   - Create family size feature (SibSp + Parch)
-   - Cabin deck extraction
-   - Age binning (child, adult, senior)
-
-2. **Advanced Models**
-   - Gradient Boosting (XGBoost, LightGBM)
-   - Neural Networks
-   - Ensemble stacking
-
-3. **Deployment**
-   - Create REST API (Flask/FastAPI)
-   - Build web interface
-   - Docker containerization
-   - Cloud deployment (AWS/GCP/Azure)
-
-4. **Monitoring**
-   - Track prediction accuracy over time
-   - Detect data drift
-   - A/B testing of model versions
-
-
 ## Comparison with Other Approaches
 
 | Approach | Accuracy | Pros | Cons |
