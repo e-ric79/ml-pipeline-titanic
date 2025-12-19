@@ -111,6 +111,19 @@ Grid Search with 5-fold CV testing 108 combinations:
 - Standard Deviation: ±1.5%
 - Consistent across all folds
 
+## 🌐 Live Deployment
+
+**Try the model yourself:** [Titanic Survival Predictor](https://ml-pipeline-titanic.streamlit.app)
+
+The trained model is deployed as an interactive web application where you can:
+- Input passenger details
+- Get real-time survival predictions
+- See confidence percentages
+- Explore model performance
+
+**Tech Stack:** Streamlit, Python, scikit-learn
+**Status:** ✅ Live and operational
+
 #### 8. Model Persistence
 
 **Saved Artifacts:**
